@@ -1,0 +1,44 @@
+.container{
+    width: 70%;
+    margin: 10px auto;
+    border: 2px solid grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.container h1{
+    align-self: center;
+    margin-top: 5px;
+}
+#search{
+    width: 25%;
+    display: inline-block;
+    margin: 0;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+input,textarea{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: snow;
+}
+
+
+.btn{
+    color: black;
+    background-color: yellowgreen;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: yellowgreen;
+    border-radius: 20px; 
+    transition: ease-in 0.3s;
+}

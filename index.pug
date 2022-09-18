@@ -1,0 +1,54 @@
+//- index.pug
+doctype html
+html
+  head
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+  body 
+    nav#navbar.top 
+        ul 
+            div#logo 
+                img(src="../static/dance.png")
+                | HDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info] 
+            li #[a(href="/contact") Contact Us]
+    section#intro 
+        div Welcome to Harry's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+    section#mission
+        h2 Our Mission
+        div.cards 
+            div.card 
+                h3 Dance Perfection
+                div.align
+                    img(src="../static/logo.png")
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, porro.s
+            div.card
+                h3 Dance the way you like 
+                div.align
+                    img(src="../static/logo.png")
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, porro.
+            div.card
+                h3 Expert Teaching
+                div.align
+                    img(src="../static/logo.png")
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, porro.
+    section#sponsors
+        h2 Our Sponsers 
+        div.logos 
+            div.logo
+                img(src="../static/hp.png", alt="")
+            div.logo
+                img(src="../static/skype.png", alt="")
+            div.logo
+                img(src="../static/apple.png", alt="")
+            div.logo
+                img(src="../static/microsoft.png", alt="")
+    footer#footer 
+        | © Copyright 2022 DanceAcademy.com
+    script
+      include ../static/index.js
